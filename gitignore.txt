@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables (secrets)
+env.txt
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase service account (if you save it as a file)
+*.json
+
+# Logs
+logs/
+*.log
+
+# Optional: if you use IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Render / deployment
+*.pid
+*.seed
+*.pid.lock
+
+# Build output (if any)
+dist/
+build/
